@@ -1,0 +1,18 @@
+/* 모바일 기본(추가예정) */
+body {
+  font-size: 14px;
+}
+
+/* 태블릿 */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* 데스크탑 */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}

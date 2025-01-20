@@ -1,0 +1,24 @@
+.marker-wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.marker-wrapper.hasPung:not(.byFriend) {
+  border: 5px solid #ff9c0e;
+  border-radius: 5%;
+}
+
+.marker-wrapper.byFriend {
+  border: 5px solid #fe6d33;
+  border-radius: 5%;
+}
+
+.marker-image {
+  width: 40px;
+  height: 40px;
+}
